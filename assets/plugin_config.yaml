@@ -1,0 +1,22 @@
+# This configuration file is necessary for constants used
+#  in the DynamicCraftPlugin
+
+urls:
+  test: true
+  uat: https://uat.craftsilicon.com
+  live: https://app.craftsilicon.com
+  tokenUrl: /ElmaV4Auth/api/auth/app #ElmaAuthDynamicV3/api/auth/apps
+
+request:
+  trxSource: APP
+  versionNumber: 1
+  bankId: "9972"
+  appName: VISIONFUND
+  country: ETHIOPIATEST
+  bankCustomerID: "25609972"
+  countryCode: "251"
+
+appProperties:
+  appLabel: Vision Fund
+  appPrimaryColor: 293178
+  appSecondaryColor: E84910

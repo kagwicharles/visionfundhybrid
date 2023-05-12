@@ -1,0 +1,42 @@
+{
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "close": "Close",
+    "done": "Done",
+    "success": "Success",
+    "selfreg": {
+        "title": "Making your dreams come true",
+        "subtitle": "First time here? Register. Activate if you are already registered to mobile banking",
+        "button1": "Login",
+        "button2": "Register"
+    },
+    "activate": {
+        "title": "Activate",
+        "mobile": "Enter mobile number",
+        "pin": "Enter your pin",
+        "button1": "Send otp"
+    },
+    "otp": {
+        "title": "OTP",
+        "button1": "Verify otp",
+        "button2": "Resend otp"
+    },
+    "login": {
+        "title": "Login",
+        "pin": "Enter your pin",
+        "button1": "Login"
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Options"
+    },
+    "home": {
+        "title": "Welcome back",
+        "cardtitle": "Account balance",
+        "sharetitle": "Share the app",
+        "sharemessage": "Share the app with friends",
+        "transactionhistory": "Transaction History",
+        "transactions": "Transactions",
+        "logoutmessage": "Would you like to logout?"
+    }
+}
