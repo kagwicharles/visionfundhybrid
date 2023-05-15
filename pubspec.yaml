@@ -31,13 +31,13 @@ dependencies:
   flutter:
     sdk: flutter
 
-  craft_dynamic:
-   path: packages/craftdynamic_hive
-
   # craft_dynamic:
-  #   git:
-  #     url: https://github.com/kagwicharles/craftdynamic_hive.git
-  #     ref: kagwi
+  #  path: packages/craftdynamic_hive
+
+  craft_dynamic:
+    git:
+      url: https://github.com/kagwicharles/craftdynamic_hive.git
+      ref: kagwi
 
 #  craft_dynamic:
 #    git:
