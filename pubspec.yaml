@@ -37,7 +37,7 @@ dependencies:
   craft_dynamic:
     git:
       url: https://github.com/kagwicharles/craftdynamic_hive.git
-      ref: kagwi
+      ref: development
 
 #  craft_dynamic:
 #    git:
@@ -59,9 +59,9 @@ dependencies:
   flutter_launcher_icons: ^0.12.0
   share_plus: ^6.3.1
   package_info: ^2.0.2
-  easy_localization: ^3.0.1
+  easy_localization: any
   provider: ^6.0.5
-  intl: 0.18.0
+  intl: any
 
 flutter_icons:
   image_path_android: "assets/icon/vision_logo.jpg"
