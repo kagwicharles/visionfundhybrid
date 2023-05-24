@@ -31,18 +31,18 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # craft_dynamic:
-  #  path: packages/craftdynamic_hive
-
   craft_dynamic:
-    git:
-      url: https://github.com/kagwicharles/craftdynamic_hive.git
-      ref: development
+   path: packages/craftdynamic_hive
 
-#  craft_dynamic:
-#    git:
-#      url: https://github.com/kagwicharles/craft_dynamicv4.git
-#      ref: development
+  # craft_dynamic:
+  #   git:
+  #     url: https://github.com/kagwicharles/craftdynamic_hive.git
+  #     ref: development
+
+  # craft_dynamic:
+  #  git:
+  #    url: https://github.com/kagwicharles/craft_dynamicv4.git
+  #    ref: development
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
