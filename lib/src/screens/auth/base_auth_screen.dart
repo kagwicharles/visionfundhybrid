@@ -2,6 +2,8 @@ import 'package:craft_dynamic/craft_dynamic.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../../utils/Responsive.dart';
+
 class BaseAuthScreen extends StatelessWidget {
   final Widget screen;
 
@@ -27,16 +29,36 @@ class BaseAuthScreen extends StatelessWidget {
                   child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Image.asset(
-                    "assets/images/login.png",
-                    fit: BoxFit.fill,
-                    height: MediaQuery.of(context).size.height * 0.6,
-                    width: MediaQuery.of(context).size.width,
-                  ),
-                  const SizedBox(
-                    height: 12,
-                  ),
-                  screen
+                  if (Responsive.isMobile(context))
+                    Column(
+                      children: [
+                        Image.asset(
+                          "assets/images/login.png",
+                          fit: BoxFit.fill,
+                          height: MediaQuery.of(context).size.height * 0.6,
+                          width: MediaQuery.of(context).size.width,
+                        ),
+                        const SizedBox(
+                          height: 12,
+                        ),
+                        screen,
+                      ],
+                    ),
+                  if (Responsive.isDesktop(context))
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Expanded(
+                          child: Image.asset(
+                            "assets/images/login.png",
+                            fit: BoxFit.fill,
+                            height: MediaQuery.of(context).size.height * 0.6,
+                            width: MediaQuery.of(context).size.width,
+                          ),
+                        ),
+                        Expanded(child: screen)
+                      ],
+                    )
                 ],
               ))),
         ),
